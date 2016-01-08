@@ -11,32 +11,32 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700|Lato' rel='stylesheet' type='text/css'>
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/">
-            <img src="/images/banner-original.svg" alt="Apiary Coding - Collaborative Learning For Women and Non-Binary Folk">
+            <img class="banner" src="/images/banner-original.svg" alt="Apiary Coding - Collaborative Learning For Women and Non-Binary Folk">
           </a>
       </header>
       <header>
         <nav>
           <a href="{{ site.baseurl }}/">Home</a>
-          <a href="{{ site.baseurl }}/gettingstarted">New to Coding?</a>
+          <a href="{{ site.baseurl }}/resources">Resources</a>
           <a href="{{ site.baseurl }}/blog">Blog</a>
         </nav>
       </header>
     </div>
 
-    <div id="main" role="main" class="container">
+    <div id="main" role="main">
       {{ content }}
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
+      <div>
         <footer class="footer">
           {% include svg-icons.html %}
         </footer>

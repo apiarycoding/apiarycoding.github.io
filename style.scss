@@ -31,12 +31,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: 'Oswald';
+  text-transform: uppercase;
   color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -45,14 +45,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 3rem;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 h3 {
@@ -151,8 +151,11 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
   background-image: url("/images/backgrounds/honeycomb-pattern-masthead.svg");
+}
+
+.banner {
+  padding: 1rem;
 }
 
 .masthead {
@@ -161,34 +164,13 @@ img {
   text-align: center;
 }
 
-.site-name {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-
 nav {
-  margin-top: 23px; // @TODO: Vertically middle align
   padding: 1rem;
-  font-family: $helveticaNeue;
+  font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
   text-align: center;
   text-transform: uppercase;
-  background: #22313F;
+  background: #ffffff;
 
   @include mobile {
     margin-top: 9px;
@@ -197,10 +179,10 @@ nav {
   }
 
   a {
-    margin-left: 20px;
-    color: white;
+    margin: 0 1rem;
+    color: black;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
   }
 }
 
@@ -239,15 +221,74 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: white;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+//
+// .home
+//
+
+.nav-secondary-container {
+  width: 100%;
+  padding: 1rem 1rem 0rem 1rem;
+  background-color: #ffd401;
+  
+  h1 {
+    margin: 1.5rem;
+    text-align: center;
+  }
+
+  nav {
+    background-color: #ffd401;
+  }
+}
+
+.home {
+  background-image: url("/images/backgrounds/honeycomb-pattern-masthead.svg");
+}
+
+.home-section {
+  padding: 2rem 0.5rem;
+  text-align: center;
+  margin: auto auto;
+  max-width: 80%;
+
+  @include mobile {
+    max-width: 100%;
+  }
+
+  h2 {
+    background-color: #ffd401;;
+    margin-bottom: 1rem;
+  }
+}
+
+.home-section-text {
+  background-color: transparentize(white, .1);
+  font-family: 'Lato';
+  width: 75%;
+  margin: auto auto;
+  padding: 1rem;
+}
+
+.home-how-it-works {
+  p {
+    border-style: 1px solid black;
+  }
+}
+
+.home-safer-spaces {
+    ul {
+      list-style-position: inside;
+    }
+    li {
+      margin: 0.8rem;
+    }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
