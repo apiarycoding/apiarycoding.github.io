@@ -84,6 +84,7 @@ ul, ol {
 
 ul {
   list-style-type: disc;
+  list-style-position: inside;
 }
 
 ol {
@@ -151,7 +152,7 @@ img {
 //
 
 .wrapper-masthead {
-  background-image: url("/images/backgrounds/honeycomb-pattern-masthead.svg");
+  background-image: url("/images/backgrounds/honeycomb-pattern-background.svg");
 }
 
 .banner {
@@ -248,11 +249,11 @@ footer {
   }
 }
 
-.home {
-  background-image: url("/images/backgrounds/honeycomb-pattern-masthead.svg");
+.background {
+  background-image: url("/images/backgrounds/honeycomb-pattern-background.svg");
 }
 
-.home-section {
+.text-wrapper {
   padding: 2rem 0.5rem;
   text-align: center;
   margin: auto auto;
@@ -263,12 +264,12 @@ footer {
   }
 
   h2 {
-    background-color: #ffd401;;
+    background-color: #ffd401;
     margin-bottom: 1rem;
   }
 }
 
-.home-section-text {
+.text-wrapper-text {
   background-color: transparentize(white, .1);
   font-family: 'Lato';
   width: 75%;
@@ -282,10 +283,13 @@ footer {
   }
 }
 
+.how-it-works-subheading {
+  h2 {
+    background-color: black !important;
+  }
+}
+
 .home-safer-spaces {
-    ul {
-      list-style-position: inside;
-    }
     li {
       margin: 0.8rem;
     }
