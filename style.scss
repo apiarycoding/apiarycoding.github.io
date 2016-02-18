@@ -247,6 +247,10 @@ footer {
   nav {
     background-color: #ffd401;
   }
+
+  p {
+    text-align: center;
+  }
 }
 
 .background {
@@ -267,6 +271,40 @@ footer {
     background-color: #ffd401;
     margin-bottom: 1rem;
   }
+
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+.home-how-it-works {
+  h3 {
+    margin-top: 2rem;
+  }
+
+  img {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 1224px) {
+  .home-how-it-works {
+    img {
+    width: 20%;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .home-how-it-works {
+    img {
+    width: 30%;
+    }
+  }
+}
+
+#home-how-it-works-image {
+  margin-top: 1.5em;
 }
 
 .text-wrapper-text {
@@ -277,22 +315,22 @@ footer {
   padding: 1rem;
 }
 
-.home-how-it-works {
+.code-of-conduct-list {
+  li {
+    margin: 1em;
+  }
+}
+
+.resources-list {
+  padding: 0;
+  list-style: none;
+}
+
+.footer {
   p {
-    border-style: 1px solid black;
+    font-size: 0.8rem;
+    margin: 0;
   }
-}
-
-.how-it-works-subheading {
-  h2 {
-    background-color: black !important;
-  }
-}
-
-.home-safer-spaces {
-    li {
-      margin: 0.8rem;
-    }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

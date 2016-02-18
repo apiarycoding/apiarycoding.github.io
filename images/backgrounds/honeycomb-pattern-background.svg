@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="144px" height="166px" viewBox="0 0 144 166" enable-background="new 0 0 144 166" xml:space="preserve">
+<pattern  x="-407.5" y="363.5" width="144" height="83" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="48 -124.5 144 83" overflow="visible">
+	<g>
+		<polygon fill="none" points="48,-41.5 192,-41.5 192,-124.5 48,-124.5 		"/>
+		<g>
+			<polygon fill="none" points="48,-124.5 192,-124.5 192,-41.5 48,-41.5 			"/>
+			<g>
+				<polygon fill="none" points="48,-41.5 192,-41.5 192,-124.5 48,-124.5 				"/>
+				<g>
+					<polygon fill="none" points="48,-41.5 192,-41.5 192,-124.5 48,-124.5 					"/>
+					<g>
+						<polygon fill="#FFFFFF" points="168,-166 144,-124.5 168,-83 216,-83 240,-124.5 216,-166 						"/>
+						<polygon fill="#EEEEEE" points="235.381,-124.5 213.691,-162 170.311,-162 148.621,-124.5 170.311,-87 213.691,-87 						"/>
+						<polygon fill="#BDC3C7" points="213.691,-162 170.311,-162 148.621,-124.5 170.311,-87 						"/>
+					</g>
+					<g>
+						<polygon fill="#FFFFFF" points="24,-166 0,-124.5 24,-83 72,-83 96,-124.5 72,-166 						"/>
+						<polygon fill="#EEEEEE" points="91.381,-124.5 69.691,-162 26.311,-162 4.621,-124.5 26.311,-87 69.691,-87 						"/>
+						<polygon fill="#BDC3C7" points="69.691,-162 26.311,-162 4.621,-124.5 26.311,-87 						"/>
+					</g>
+					<g>
+						<polygon fill="#FFFFFF" points="168,-83 144,-41.5 168,0 216,0 240,-41.5 216,-83 						"/>
+						<polygon fill="#EEEEEE" points="235.381,-41.5 213.691,-79 170.311,-79 148.621,-41.5 170.311,-4 213.691,-4 						"/>
+						<polygon fill="#BDC3C7" points="213.691,-79 170.311,-79 148.621,-41.5 170.311,-4 						"/>
+					</g>
+					<g>
+						<polygon fill="#FFFFFF" points="96,-124.5 72,-83 96,-41.5 144,-41.5 168,-83 144,-124.5 						"/>
+						<polygon fill="#EEEEEE" points="163.381,-83 141.691,-120.5 98.311,-120.5 76.621,-83 98.311,-45.5 141.691,-45.5 						"/>
+						<polygon fill="#BDC3C7" points="141.691,-120.5 98.311,-120.5 76.621,-83 98.311,-45.5 						"/>
+					</g>
+					<g>
+						<polygon fill="#FFFFFF" points="24,-83 0,-41.5 24,0 72,0 96,-41.5 72,-83 						"/>
+						<polygon fill="#EEEEEE" points="91.381,-41.5 69.691,-79 26.311,-79 4.621,-41.5 26.311,-4 69.691,-4 						"/>
+						<polygon fill="#BDC3C7" points="69.691,-79 26.311,-79 4.621,-41.5 26.311,-4 						"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</pattern>
+<pattern  id="SVGID_2_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 -312.5 -34349)">
+</pattern>
+<rect opacity="0.8" fill="url(#SVGID_2_)" enable-background="new    " width="144" height="166"/>
+</svg>
