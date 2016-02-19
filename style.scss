@@ -333,6 +333,27 @@ footer {
   }
 }
 
+//
+// .blog
+//
+
+.posts {
+  width: 90%;
+  padding: 2.5%;
+  margin: auto auto;
+  background-color: white;
+}
+
+.blog-background {
+  background-image: url("/images/backgrounds/honeycomb-pattern-background.svg");
+  padding: 5%;
+}
+
+.post {
+  padding: 1% 5% 5% 5%;
+  background-color: white;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
