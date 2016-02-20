@@ -263,10 +263,6 @@ footer {
   margin: auto auto;
   max-width: 80%;
 
-  @include mobile {
-    max-width: 100%;
-  }
-
   h2 {
     background-color: #ffd401;
     margin-bottom: 1rem;
@@ -313,6 +309,12 @@ footer {
   width: 75%;
   margin: auto auto;
   padding: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .text-wrapper-text {
+      width: 100%;
+  }
 }
 
 .code-of-conduct-list {
